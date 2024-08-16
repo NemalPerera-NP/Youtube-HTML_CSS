@@ -1,0 +1,30 @@
+p {
+  font-family: Arial;
+}
+.first_title {
+  font-size: 18px;
+  font-weight: bold;
+  width: 300px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+.first_title_stat {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-top: 0;
+}
+
+.special_text {
+  background-color: rgba(227, 64, 64, 1);
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.special_text_underline {
+  cursor: pointer;
+}
+.special_text_underline:hover {
+  text-decoration: underline;
+}
