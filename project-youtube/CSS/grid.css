@@ -1,3 +1,6 @@
+body {
+  padding-bottom: 1000px;
+}
 .div_main {
   display: grid;
   grid-template-columns: 100px 100px;
@@ -5,13 +8,21 @@
 .div_main2 {
   margin-top: 30px;
   display: grid;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   /* 1fr means the free space */
+  column-gap: 20px;
+  row-gap: 40px;
 }
 .dv1 {
   background-color: lightblue;
+  height: 200px;
 }
 
 .dv2 {
   background-color: blueviolet;
+  height: 200px;
+}
+.dv3 {
+  background-color: lawngreen;
+  height: 200px;
 }

@@ -3,24 +3,23 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
-
-.Thumbnails {
-  /* this is the styling of the images of the site */
-  width: 300px;
-  display: block;
-}
-
 .Search-bar {
   font-size: 20px;
   display: block;
 }
 
-.video_preview {
-  display: inline-block;
-  vertical-align: top;
-  width: 300px;
-  margin-right: 15px;
+.video_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 40px;
 }
+
+.Thumbnails {
+  /* this is the styling of the images of the site */
+  width: 100%;
+}
+
 .video_info_grid {
   display: grid;
   grid-template-columns: 50px 1fr;
