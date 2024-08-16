@@ -1,0 +1,54 @@
+body {
+  padding-bottom: 1000px;
+}
+.div_main {
+  display: flex;
+  flex-direction: row;
+}
+
+.div1 {
+  background-color: aquamarine;
+}
+.div2 {
+  background-color: blueviolet;
+}
+
+.div_main1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.div11 {
+  background-color: aquamarine;
+}
+.div22 {
+  background-color: blueviolet;
+  flex: 1;
+  /* flex: 1; this is same as the 1fr of css grid */
+}
+
+.searchBar_flex {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  height: 70px;
+  border-radius: 1px;
+  border-style: solid;
+  border-color: brown;
+  justify-content: start;
+  align-items: center;
+}
+
+.div111 {
+  background-color: aquamarine;
+  width: 100px;
+}
+.div222 {
+  background-color: blueviolet;
+  width: 100px;
+}
+.div3 {
+  background-color: bisque;
+  width: 100px;
+}
