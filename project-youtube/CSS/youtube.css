@@ -7,17 +7,30 @@
   font-size: 20px;
   display: block;
 }
-.video_title {
-}
-.video_author {
-}
-.video_stat {
-}
+
 .div_video_container {
   display: inline-block;
   vertical-align: top;
   width: 300px;
   margin-right: 15px;
-  border-radius: 2px;
-  border-style: solid;
+}
+.chanel_picture_div {
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+}
+.video_info_div {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
+.profile_picture {
+  width: 100%;
+}
+.video_title {
+  margin-top: 0px;
+}
+.video_author {
+}
+.video_stat {
 }
