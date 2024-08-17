@@ -4,7 +4,23 @@
   column-gap: 18px;
   row-gap: 40px;
 }
+@media (max-width: 750px) {
+  .video_grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
+@media (min-width: 751px) and (max-width: 999px) {
+  .video_grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video_grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
 .Thumbnails {
   /* this is the styling of the images of the site */
   width: 100%;
@@ -17,7 +33,7 @@
 }
 
 .profile_picture {
-  width: 40px;
+  width: 36px;
   border-radius: 50px;
 }
 
@@ -25,7 +41,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .video_author,
@@ -38,5 +54,22 @@
 }
 
 .thubnail_row {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.video_time {
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 4px;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  border-radius: 2px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
 }
