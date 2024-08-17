@@ -5,20 +5,88 @@
   justify-content: space-between;
 }
 .left_section {
-  background-color: bisque;
-  width: 150px;
+  display: flex;
+  align-items: center;
 }
-.midle_section {
-  background-color: blueviolet;
-  flex: 1;
-  margin-left: 75px;
-  margin-right: 30px;
-  max-width: 500px;
+.hamburger_menu {
+  height: 24px;
+  margin-left: 25px;
+  margin-right: 20px;
 }
-.right_section {
-  background-color: aqua;
-  width: 200px;
+.site_logo {
+  height: 20px;
 }
 
+.midle_section {
+  flex: 1;
+  margin-left: 75px;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+.search_btn {
+  height: 40px;
+  width: 68px;
+  background-color: rgb(240, 240, 240);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  margin-left: -1px;
+  margin-right: 10px;
+}
+
+.voice_btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(243, 243, 243);
+}
 .Search-bar {
+  flex: 1;
+  height: 36px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+}
+.Search-bar::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+}
+
+.search_icon {
+  height: 24px;
+  margin-top: 4px;
+}
+.voice_icon {
+  height: 24px;
+  margin-top: 4px;
+}
+
+.right_section {
+  width: 180px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.upload_icon {
+  height: 24px;
+}
+.youtube_app_icon {
+  height: 24px;
+}
+
+.notification_icon {
+  height: 24px;
+}
+.profile_icon {
+  height: 32px;
+  border-radius: 16px;
 }
